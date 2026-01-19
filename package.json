@@ -1,0 +1,36 @@
+{
+  "name": "upwork-jobs-scraper",
+  "version": "1.0.0",
+  "description": "Self-hosted Upwork Jobs Scraper API with Cloudflare bypass using puppeteer-real-browser. Designed for n8n automation workflows.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "upwork",
+    "scraper",
+    "jobs",
+    "puppeteer",
+    "cloudflare-bypass",
+    "n8n",
+    "automation",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.6.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer-real-browser": "^1.4.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

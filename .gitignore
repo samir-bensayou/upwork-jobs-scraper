@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Chrome profile (contains session data)
+chrome-profile/
+
+# State files
+keyword_state.json
+
+# Debug files
+debug_*.html
+debug_*.png
+last_scrape.png
+cloudflare_block.png
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Cookies (sensitive)
+cookies.json
+user_agent.txt
+config.json
