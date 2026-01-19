@@ -465,8 +465,9 @@ app.post('/scrape', async (req, res) => {
 
                 // Wait between keywords
                 if (i < keywords.length - 1 && allJobs.length < maxJobs) {
-                    console.log('Waiting 3 seconds...');
-                    await new Promise(r => setTimeout(r, 3000));
+                    const delay = Math.floor(Math.random() * (6000 - 3000 + 1)) + 3000; // 3‑6 s random wait
+                    console.log(`Waiting ${delay} ms...`);
+                    await new Promise(r => setTimeout(r, delay));
                 }
             } catch (err) {
                 console.error(`Error for "${keyword}":`, err.message);
