@@ -226,4 +226,4 @@ MIT License - Feel free to use, modify, and distribute.
 
 ---
 
-**Made with ❤️ for the automation community**
+**Made with ❤️ by [Samir Bensayou](https://www.linkedin.com/in/samir-bensayou/) for the automation community**
