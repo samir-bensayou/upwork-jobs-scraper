@@ -19,7 +19,7 @@ A self-hosted API server that scrapes Upwork job listings with **automatic Cloud
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/upwork-jobs-scraper.git
+git clone https://github.com/samir-bensayou/upwork-jobs-scraper.git
 cd upwork-jobs-scraper
 
 # Install dependencies
