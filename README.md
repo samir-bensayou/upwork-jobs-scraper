@@ -193,7 +193,7 @@ The browser runs in "off-screen" mode (`--window-position=-3000,-3000`) to stay 
 
 1. **Session Expiry**: Browser session may expire after a few days. If you encounter Cloudflare blocks, restart the server.
 
-2. **Rate Limiting**: Add delays between requests to avoid being detected. The API includes a 3-second delay between keywords.
+2. **Rate Limiting**: Add delays between requests to avoid being detected. The API includes a random 3-6 second delay between keywords to mimic human behavior.
 
 3. **Terms of Service**: Automated scraping may violate Upwork's Terms of Service. Use responsibly and at your own risk.
 
